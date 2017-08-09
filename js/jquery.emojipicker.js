@@ -264,7 +264,7 @@
       }
 
       var emojiShortcode = emojiSpan.attr('class').split('emoji-')[1];
-      var emojiUnicode = toUnicode(findEmoji(emojiShortcode).unicode[defaults.emojiSet]);
+      var emojiUnicode = toUnicode(findEmoji(emojiShortcode).unicode[this.settings.emojiSet]);
 
       insertAtCaret(this.element, emojiUnicode);
       addToLocalStorage(emojiShortcode);
