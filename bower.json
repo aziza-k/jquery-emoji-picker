@@ -1,9 +1,9 @@
 {
   "name": "jquery-emoji-picker",
-  "version": "0.2.2",
-  "homepage": "https://github.com/wedgies/jquery-emoji-picker",
+  "version": "0.2.3",
+  "homepage": "https://github.com/sarpdoruk/jquery-emoji-picker",
   "authors": [
-    "Wedgies, Inc"
+    "Sarpdoruk Tahmaz"
   ],
   "keywords": [
     "emoji",
