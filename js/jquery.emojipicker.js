@@ -177,7 +177,7 @@
       // Shortcode hover
       this.$picker.find('.shortcode').mouseover(function(e) { e.stopPropagation(); });
 
-      $(document.body).click( $.proxy(this.clickOutside, this) );
+      $(document.body).off('click.clickOutside').on('click.clickOutside', $.proxy(this.clickOutside, this) );
 
       // Resize events forces a reposition, which may or may not actually be required
       $(window).resize( $.proxy(this.updatePosition, this) );
